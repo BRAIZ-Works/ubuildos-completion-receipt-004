@@ -1,36 +1,38 @@
 # Ticket Triage™
 
 **UBuildOS™ 30-Day Public Campaign — Day 03 / P01**  
-**Public package:** v1.1.0  
-**Theme:** TRUST THROUGH UNCERTAINTY
+**Product SemVer:** 1.1.0  
+**Public-package SemVer:** 1.1.1  
+**Frozen R4 review subject:** `REVIEW_SUBJECT.zip`  
+**Frozen review-subject SHA-256:** `39bc44173821df2fc4286d4d8804d46e1d4dc77721c6ca4aff1fd481690a0756`  
+**Frozen subject-root SHA-256:** `eee6ac1749fe6ff1d019104c1ce3b40f17d1d6a5d154e58d370145cc4a753b88`
 
-Ticket Triage™ is a dependency-free browser tool that applies a small, inspectable rule set to synthetic support tickets. It shows the matched rule, category, severity, reason, and evidence signals—and returns **REVIEW** instead of inventing certainty when the evidence is empty, unmatched, or conflicting.
+Ticket Triage™ is a dependency-free browser tool that applies a small, inspectable rule set to synthetic support tickets. It exposes the matched rule, category, severity, reason, and evidence signals. When evidence is empty, unmatched, or conflicting, it returns **REVIEW** instead of manufacturing certainty.
 
 ## Run it
 Open `index.html` in a modern browser.
 
-## What improved from the earlier Day-03 candidate
-- Day-02-equivalent public release surface: runnable product, public README, START_HERE, source README, proof visuals, and inspectable source.
-- Rule Inspector exposes the exact decision rules.
-- Decision history is local-only and exportable as JSON.
-- Sample tickets demonstrate resolved, ambiguous, unmatched, and critical cases.
-- Explicit matched-signal evidence accompanies every resolved decision.
-- Built-in deterministic self-test and separate Node test harness.
-- Stronger public limitation language and no-network/privacy boundary.
-
 ## Storage and network behavior
 - Decision history persists only in browser `localStorage`.
 - The application makes no network calls.
-- It performs no external writes: it does not send messages, update tickets, write external systems, authenticate users, or perform autonomous external actions.
+- It performs no external writes.
 - Included examples are synthetic/public-demo data.
 
 ## Public proof
-- `ticket-triage-screenshot.svg` — product preview showing an explicit resolved decision.
-- `decision-flow.svg` — rule → evidence → decision / REVIEW proof graphic.
+- `ticket-triage-screenshot.png` — product proof image.
+- `decision-flow.png` — deterministic decision/REVIEW proof graphic.
+- `LINKEDIN_CAROUSEL.pdf` — five-page LinkedIn document.
+- `LINKEDIN_CAROUSEL.md` — editable publication source.
 - `tests.js` — deterministic public test harness.
 
 ## Core trust rule
 A ticket is **RESOLVED** only when exactly one category rule matches. Zero matches, conflicting category matches, or empty input return **REVIEW**.
 
 ## Verification status
-This repository is the intended public projection of the Day-03 terminal successor. Publication/freeze/closeout status must be taken from the final lifecycle receipt, not inferred from repository possession alone.
+The exact R4 review subject completed producer qualification, Fresh Independent IQA PASS, post-IQA reconciliation, owner acceptance, and exact-byte freeze before this publication projection was finalized.
+
+Fresh IQA transport SHA-256: `151c7d90f75a50720d2cad0cfafd4b4179eee07c1e6d288650bf75b92df6a2f4`.
+
+This public package is a presentation/distribution projection. It does **not** modify the frozen R4 product bytes.
+
+Public surface: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-004
