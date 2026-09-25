@@ -4,4 +4,6 @@ Ticket Triage™ does something simpler: deterministic rules, visible reasons, a
 
 Same input + same rules = same result. If the rules conflict or do not have enough evidence, it does not guess.
 
-Inspect the rules: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-004
+Try it live: https://braiz-works.github.io/ubuildos-completion-receipt-004/
+
+Inspect the source and proof: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-004
