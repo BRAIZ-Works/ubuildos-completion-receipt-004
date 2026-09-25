@@ -35,4 +35,6 @@ Fresh IQA transport SHA-256: `151c7d90f75a50720d2cad0cfafd4b4179eee07c1e6d288650
 
 This public package is a presentation/distribution projection. It does **not** modify the frozen R4 product bytes.
 
-Public surface: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-004
+Public repository: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-004
+
+Live app: https://braiz-works.github.io/ubuildos-completion-receipt-004/
